@@ -1,0 +1,373 @@
+html, body {
+    height: 100%
+}
+
+@font-face {
+    font-family: 'Arial-Regular';
+    src: url('fonts/Arial/Arial-Regular.eot');
+    src: url('fonts/Arial/Arial-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/Arial/Arial-Regular.woff') format('woff'), url('fonts/Arial/Arial-Regular.ttf') format('truetype'), url('fonts/Arial/Arial-Regular.svg#Arial-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Myriad-Pro-regular';
+    src: url('fonts/Myriad-Web-Pro-Regular/Myriad-Web-Pro-Regular.eot');
+    src: url('fonts/Myriad-Web-Pro-Regular/Myriad-Web-Pro-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/Myriad-Web-Pro-Regular/Myriad-Web-Pro-Regular.woff') format('woff'), url('fonts/Myriad-Web-Pro-Regular/Myriad-Web-Pro-Regular.ttf') format('truetype'), url('fonts/Myriad-Web-Pro-Regular/Myriad-Web-Pro-Regular.svg#Myriad-Web-Pro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Myriad-Pro-Bold';
+    src: url('fonts/Myriad-Web-Pro-Bold/Myriad-Web-Pro-Bold.eot');
+    src: url('fonts/Myriad-Web-Pro-Bold/Myriad-Web-Pro-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/Myriad-Web-Pro-Bold/Myriad-Web-Pro-Bold.woff') format('woff'), url('fonts/Myriad-Web-Pro-Bold/Myriad-Web-Pro-Bold.ttf') format('truetype'), url('fonts/Myriad-Web-Pro-Bold/Myriad-Web-Pro-Bold.svg#Myriad-Web-Pro-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+.container {
+    margin: 0 auto;
+    height: 100%;
+    width: 1100px
+}
+
+.title, .reviews, .services, .featured_project {
+    border-bottom: #ccc 3px dotted
+}
+
+.title {
+    height: 205px
+}
+
+.header {
+    height: 133px;
+    background-color: #333;
+    min-width: 1100px
+}
+
+.text_header {
+    font-family: "Myriad-Pro-regular", Serif, Verdana, fantasy;
+    color: #eee;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: -2.4px;
+    line-height: 16px;
+    text-align: left;
+    padding-left: 70px;
+    padding-top: 41px;
+    float: left
+}
+
+.menu {
+    font-family: "Arial", Serif, Verdana, fantasy;
+    color: #eee;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.64px;
+    line-height: 42px;
+    text-align: left;
+    display: flex;
+    margin-left: 619px;
+    padding-top: 73px
+}
+
+.menu_home a, .menu_about_us a, .menu_services a, .menu_portfolio a, .menu_contact_us a {
+    padding: 2px;
+    text-decoration: none;
+    color: #eee
+}
+
+.menu_home a:hover, .menu_about_us a:hover, .menu_services a:hover, .menu_portfolio a:hover, .menu_contact_us a:hover {
+    color: #00aeef
+}
+
+.text_title {
+    font-family: "Myriad-Pro-Bold", Serif, Verdana, cursive;
+    color: #333;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -2.4px;
+    line-height: 16px;
+    text-align: left;
+    padding-top: 67px;
+    padding-left: 65px;
+    float: left
+}
+
+.symbol {
+    font-family: "Myriad-Pro-Bold", Serif, Verdana, cursive;
+    color: #00bff3;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -2.4px;
+    line-height: 16px;
+    text-align: left;
+    float: left;
+    padding-top: 67px;
+    margin-left: 10px;
+    width: 10px
+}
+
+.text_title2 {
+    font-family: "Myriad-Pro-regular", Serif, Verdana, serif;
+    color: #bbb;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: -2px;
+    line-height: 16px;
+    text-align: left;
+    padding-top: 127px;
+    padding-left: 70px
+}
+
+.description {
+    font-family: "Myriad-Pro-regular", Serif, Verdana, cursive;
+    color: #555;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: -1.36px;
+    line-height: 42px;
+    text-align: left;
+    padding-top: 33px;
+    padding-left: 70px;
+    height: 183px
+}
+
+.services a {
+    height: 442px;
+    text-decoration: none
+}
+
+.service1, .service2, .service3 {
+    box-shadow: 2px 4px 5px 0 rgba(170, 170, 170, 0.75);
+    width: 283px;
+    height: 351px;
+    float: left;
+    background-color: #00aeef;
+    margin-left: 58px;
+    margin-top: 43px;
+    text-decoration: none
+}
+
+.serv_title {
+    font-family: "Myriad-Pro-regular", Serif, Verdana, cursive;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -1.6px;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 15px;
+    border-bottom: 2px dotted;
+    border-radius: 15%
+}
+
+.serv_descr {
+    font-family: "Arial", Verdana, Serif, cursive;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    padding: 27px 28px 10px;
+    height: 190px
+}
+
+.button_menu {
+    position: relative;
+    box-shadow: 2px 4px 5px 0 #00bff3;
+    background-color: #0076a3;
+    width: 232px;
+    height: 41px;
+    margin-left: 25px;
+    border-radius: 7px
+}
+
+.button_menu:active {
+    top: 1px;
+    box-shadow: 2px 4px 3px 0 #00bff3
+}
+
+.serv_more {
+    font-family: "Myriad-Pro-regular", Serif, Verdana, cursive;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.72px;
+    line-height: 45px;
+    text-align: center;
+    margin-left: 38px;
+    text-decoration: none
+}
+
+.service1 a .button_menu:hover {
+    color: #fff
+}
+
+.serv_more:hover {
+    color: #00aeef
+}
+
+.reviews {
+    height: 448px;
+    float: left
+}
+
+.clients_comm {
+    width: 548px;
+    height: 448px;
+    float: left
+}
+
+.comm_title {
+    font-family: "Myriad-Pro-regular", Serif, Verdana, cursive;
+    color: #555;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.96px;
+    line-height: 42px;
+    text-align: left;
+    padding-top: 36px;
+    padding-left: 3px
+}
+
+.comm1 {
+    padding-top: 29px
+}
+
+.comm2, .comm3 {
+    padding-top: 30px
+}
+
+.img_client {
+    width: 84px;
+    height: 84px;
+    background-color: #ccc;
+    float: left
+}
+
+.comm_client {
+    font-family: "Arial-Regular", Serif, Verdana, cursive;
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    margin-left: 101px;
+    padding-right: 40px
+}
+
+.initials_client, .org_client {
+    font-family: "Arial-Regular", Serif, Verdana, fantasy;
+    color: #555;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    padding-left: 101px
+}
+
+.org_client a, .initials_client a {
+    color: #555;
+    text-decoration: none
+}
+
+.org_client a:hover, .initials_client a:hover {
+    color: #00aeef
+}
+
+.featured_project {
+    width: 548px;
+    height: 448px;
+    margin-left: 548px;
+    border-left: #ccc 3px dotted
+}
+
+.title_proj, .name_proj, .descr_proj, .more_details {
+    padding-left: 47px
+}
+
+.title_proj {
+    font-family: "Myriad-Pro-regular", Serif, Verdana, fantasy;
+    color: #555;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.96px;
+    line-height: 42px;
+    text-align: left;
+    padding-top: 36px
+}
+
+a {
+    cursor: pointer
+}
+
+.name_proj a {
+    font-family: "Arial-Regular", Serif, Calibri, fantasy;
+    color: #888;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    text-decoration: none
+}
+
+.name_proj a:hover {
+    color: #00aeef
+}
+
+.img_proj {
+    box-shadow: 2px 4px 5px 0 rgba(204, 204, 204, 0.75);
+    max-width: 430px;
+    height: 206px;
+    background-size: cover;
+    margin-left: 47px;
+    background-image: url("img/featured-project.jpg");
+    margin-top: 9px
+}
+
+.descr_proj {
+    font-family: "Arial-Regular", Verdana, Serif, fantasy;
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    padding-top: 21px
+}
+
+.more_details a {
+    font-family: "Arial-Regular", Verdana, Serif, fantasy;
+    color: #555;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-decoration: none
+}
+
+.more_details a:hover {
+    color: #00aeef
+}
+
+.clean_footer {
+    height: 100px;
+    clear: both
+}
+
+.footer {
+    height: 100px;
+    width: 1100px;
+    clear: both;
+    font-family: "Arial-Regular", Serif, Calibri, fantasy;
+    color: #888;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.64px;
+    line-height: 16px;
+    text-align: left;
+    margin: 0 auto;
+    padding-top: 18px
+}
